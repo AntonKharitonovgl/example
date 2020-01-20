@@ -28,6 +28,19 @@
    border:1px solid #fff;
 }
 
+.menu__links {
+    
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto;
+    float:right;
+  }
+
 .fonimage{
 background-image: url(../images/fon.jpg);
 max-width: 1200px;
@@ -169,7 +182,26 @@ background-repeat: no-repeat;
    margin: 7px auto;
    border:1px solid #000;
 }
+
+.menu__links {
+     position: fixed;
+    display: inline-block;
+    max-width: 200px;
+    height: 50px;
+    width: 20%; 
+    margin-top: 64px;
+    background-color: rgba(0, 0, 0, 0.8);
+    float: right;
+
+  }
     
+ .menu__links-item {
+    display: block;
+    padding: 4px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size:1.5vw;
+  }
   }
 
   
