@@ -11,12 +11,21 @@
 
 .top_menu .menu__icon {
     display: none;
-    background-image: url(../images/icon_menu.jpg);
+     background-color: #b09154;
     width: 45px;
     height: 35px;
     position: relative;
     cursor: pointer;
     float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.top_menu .menu__icon .menu-line {
+   width: 70%;
+   height: auto;
+   margin: 7px auto;
+   border:1px solid #fff;
 }
 
 .fonimage{
@@ -147,12 +156,18 @@ background-repeat: no-repeat;
      
     .top_menu .menu__icon {
      display: inline-block;
-    background-image: url(../images/icon_menu.jpg);
+      background-color: #b09154;
     max-width: 45px;
     max-height: 35px;
     float: right;
     margin-top: 8px;
     margin-right: 8px;
+}
+ .top_menu .menu__icon .menu-line {
+   width: 70%;
+   height: auto;
+   margin: 7px auto;
+   border:1px solid #000;
 }
     
   }
