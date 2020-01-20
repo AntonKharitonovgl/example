@@ -3,7 +3,7 @@
 
 .top_menu {
 	height: 68px;
-	width: 100%;  /* вот так*/
+    width: 100%;  /* вот так*/
 	max-width: 1200px;/* и еще так*/
     margin: 0 auto; /*блок по центру*/ 
     background-color: #b09154
@@ -184,15 +184,14 @@ background-repeat: no-repeat;
 }
 
 .menu__links {
-     position: fixed;
+    text-decoration: none;
+    text-transform: uppercase;
     display: inline-block;
-    max-width: 200px;
     height: 50px;
-    width: 20%; 
-    margin-top: 64px;
-    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%; 
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
     float: right;
-
   }
     
  .menu__links-item {
