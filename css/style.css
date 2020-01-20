@@ -183,10 +183,12 @@ background-repeat: no-repeat;
    border:1px solid #000;
 }
 
+.menu_mobile
+{
+ display: none;
+}
 .menu__links {
-    text-decoration: none;
     text-transform: uppercase;
-    display: inline-block;
     max-height: 200px;
     width: 100%; 
     margin-top: 0px;
@@ -195,7 +197,6 @@ background-repeat: no-repeat;
   }
     
  .menu__links-item {
-    display: block;
     padding: 4px 0;
     text-align: center;
     color: #ffffff;
