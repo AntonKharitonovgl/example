@@ -124,10 +124,9 @@ background-repeat: no-repeat;
 
 .blocks{
     height: 200px;
-    width:200px;
+    width: calc(25% - 24px);
     background-color: #000;
-    margin-left: 23px;
-    margin-top: 23px;
+    margin:12px;
     float:left; 
     padding: 0px;
 }
