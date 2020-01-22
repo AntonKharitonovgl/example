@@ -114,21 +114,24 @@ background-repeat: no-repeat;
 }
 
 .main_block{
-    
-    height: 1200px;
+        height: 1200px;
     width: 100%;  /* вот так*/
     max-width: 1200px;/* и еще так*/
     margin: 0 auto;
     background-color: #b09154
+    
 }
 
 .blocks{
-    height: 200px;
-    width: calc(25% - 24px);
+   
+    height: 300px;
+    width: 250px;
+    text-align: center;
     background-color: #000;
-    margin:12px;
+    margin:25px;
     float:left; 
     padding: 0px;
+    display:inline-block;
 }
 
 
