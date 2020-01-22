@@ -125,10 +125,11 @@ background-repeat: no-repeat;
 .blocks{
    
     height: 300px;
-    width: 250px;
+    width: calc(25% - 24px);
     text-align: center;
     background-color: #000;
-    margin:25px;
+    margin:12px;
+    box-sizing: border-box;
     float:left; 
     padding: 0px;
     display:inline-block;
@@ -225,3 +226,35 @@ background-repeat: no-repeat;
   }
 
   
+ 
+ @media screen and (max-width:1010px){
+
+   .blocks{
+    height: 300px;
+    width: 40%;
+    text-align: center;
+    background-color: #000;
+    margin:40px;
+    box-sizing: border-box;
+    float:left; 
+    padding: 0px;
+    display:inline-block;
+    }
+
+  }
+
+  @media screen and (max-width:850px){
+
+   .blocks{
+    height: 300px;
+    width: 80%;
+    text-align: center;
+    background-color: #000;
+    margin:85px;
+    box-sizing: border-box;
+    float:left; 
+    padding: 0px;
+    display:inline-block;
+    }
+
+  }
