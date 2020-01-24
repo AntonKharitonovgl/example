@@ -1,6 +1,8 @@
 /* нужно указать ширину блока*/
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
+
+
 .top_menu {
 	height: 68px;
     width: 100%;  /* вот так*/
@@ -143,6 +145,48 @@ background-repeat: no-repeat;
     border: 3px solid black; 
     box-shadow: 0 0 7px #666; 
 }
+
+.main_block h1{
+    text-align: center;
+}
+
+.zakaz_product{
+   margin: 0 auto;
+    width: calc(90% - 4px);
+    height: 300px;
+    outline: 2px solid #000;
+    margin-top: 20px;
+}
+
+.zakaz_product h3{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 30px;
+    font-family: Anton;
+}
+
+.zakaz_product p{
+    font-size: 20px;
+    margin:5px;
+}
+
+.zakaz_product button{
+    font-size: 18px;    
+    margin-left: 20px;
+}
+
+.icon_button{
+    
+    width: 25px;
+    height: 25px;
+}
+
+.rightimg  {
+    height: 200px;
+    width:250px;
+    float: right; 
+    margin:7px; 
+   }
 
 @media screen and (min-width:710px) and (max-width:820px) {
   .top_menu {
