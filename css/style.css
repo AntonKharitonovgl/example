@@ -116,10 +116,11 @@ background-repeat: no-repeat;
 }
 
 .main_block{
-        height: 2400px;
+    height: 2400px;
     width: 100%;  /* вот так*/
     max-width: 1200px;/* и еще так*/
     margin: 0 auto;
+    margin-top: -25px;
     background-color: #b09154
     
 }
@@ -180,11 +181,33 @@ background-repeat: no-repeat;
     width: 25px;
     height: 25px;
 }
+.knopka01{
+position: relative;
+  font-weight: bold;
+  margin: 24px;
+  color: black;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #cc5500;
+  user-select: none;
+  padding: .8em 2em;
+  outline: none;
+  border-radius: 1px;
+  background: linear-gradient(to left, rgba(0,0,0,.3), rgba(0,0,0,.0) 50%, rgba(0,0,0,.3)), linear-gradient(#d77d31, #fe8417, #d77d31);
+  background-size: 100% 100%, auto;
+  background-position: 50% 50%;
+  box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
+  transition: 0.2s;
+}
+ .img_class{
+    height: 200px;
+    width:250px;
+    margin: 10px 10px 0px 0px; 
+    float: right;
+    }
 
 .rightimg  {
     height: 200px;
     width:250px;
-    float: right; 
     margin:7px; 
    }
 
