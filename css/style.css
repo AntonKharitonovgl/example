@@ -164,17 +164,20 @@ background-repeat: no-repeat;
 }
 .main__block__text{
 margin: 5px;
-width: 70%;
+width: 65%;
 float: left;
 }
 
 .main__block__pic{
-    margin:30px;
+    margin:10px;
     float: right;
+    height: 66%;
+width: 30%;
+
 }
 .main__block__pic img{
-height: 200px;
-width: 250px;
+height: 100%;
+width: 100%;
 }
 
 .button{
