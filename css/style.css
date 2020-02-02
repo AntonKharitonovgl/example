@@ -116,7 +116,7 @@ background-repeat: no-repeat;
 }
 
 .main_block{
-    height: 2400px;
+    height: 4000px;
     width: 100%;  /* вот так*/
     max-width: 1200px;/* и еще так*/
     margin: 0 auto;
@@ -169,7 +169,7 @@ float: left;
 }
 
 .main__block__pic{
-    margin:10px;
+    margin:0px;
     float: right;
     height: 66%;
 width: 30%;
@@ -196,8 +196,28 @@ width: 100%;
   background: linear-gradient(#F3AE0F, #E38916) #E38916;
   transition: 0.2s;
 }
+.mainphotoblock{
+    max-height: 900px;
+}
+.picwoborder
+{
+    height: 300px;
+    width: 33.3%;
+    text-align: center;
+    background-color: #b09154;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    float: left;
+    display:inline-block;
+}
 
-
+.picwoborder img {
+display: block;
+width: 100%;
+height: 100%;
+}
 
 @media screen and (min-width:710px) and (max-width:820px) {
   .top_menu {
@@ -320,4 +340,15 @@ width: 100%;
     display:inline-block;
     }
 
+    .picwoborder
+{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background-color: #b09154;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display:inline-block;
+}
   }
