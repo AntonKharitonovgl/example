@@ -197,6 +197,7 @@ width: 100%;
   transition: 0.2s;
 }
 .mainphotoblock{
+    display:inline-block;
     max-height: 900px;
 }
 .picwoborder
@@ -221,9 +222,26 @@ height: 100%;
 
 .form{
     height:300px;
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
+    text-align: center;
+    outline: 2px solid #000;
 }
+ 
+.contact_form input, .contact_form textarea{
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #000, 0 10px 15px #eee inset;
+    border-radius:2px;
+}
+   
+.contact_form label {
+    width:150px;
+    margin-top: 3px;
+     float:left;
+    padding:3px;
+}
+.contact_form textarea {padding:8px; width:300px;}
+.contact_form button {margin-left:156px;}
 
 .contact_form ul {
     width:100%;
