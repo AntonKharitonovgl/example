@@ -6,6 +6,7 @@
 .top_menu {
 	height: 68px;
     width: 100%;  /* вот так*/
+    border: 1px solid #000;
 	max-width: 1200px;/* и еще так*/
     margin: 0 auto; /*блок по центру*/ 
     background-color: #b09154
@@ -48,6 +49,7 @@ background-image: url(../images/fon.jpg);
 max-width: 1200px;
 height: 600px;
 width: 100%; 
+border: 1px solid #000;
 margin: 0 auto;
 float:top;
 background-repeat: no-repeat;
@@ -116,7 +118,9 @@ background-repeat: no-repeat;
 }
 
 .main_block{
-    height: 4000px;
+    height: calc(100%+100px);
+    max-height: 5000px;
+    border: 1px solid #000;
     width: 100%;  /* вот так*/
     max-width: 1200px;/* и еще так*/
     margin: 0 auto;
@@ -259,10 +263,58 @@ height: 100%;
 
 .mapblock{
     
-    width: 41%;
+    width: 500px;
+    height: 400px;
     margin: 0 auto;
      outline: 2px solid #000;
      margin-top: 20px;
+}
+
+.footer {
+
+    width: 100%;
+    margin:0 auto;
+    height: auto;
+    max-width: 1200px;/* и еще так*/
+    margin: 0 auto;
+    border: 1px solid #000;
+    background-color: #b09154
+}
+.high_footer{
+    height: 110px;
+}
+.logofooter{
+    width: 30%;
+    height: 70px;
+    margin:0 auto;
+    float: left;
+}
+
+.logofooter img{
+display:block;
+margin:15px;
+}
+
+.addressfoot{
+    text-align: center;
+    width: 50%;
+    height: 70px;
+    margin:0 auto;
+    float: left;
+}
+
+.contactsfoot{
+    text-align: center;
+    width: 20%;
+    height: 70px;
+    margin:0 auto;
+    float: left;
+}
+
+.botfooter{
+height: 50px;
+border-top: 1px solid #000;
+text-align: center;
 }
 
 @media screen and (min-width:710px) and (max-width:820px) {
