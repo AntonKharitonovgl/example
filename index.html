@@ -6,8 +6,11 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/vegas.min.css">
+	<!--
 	<link rel="stylesheet" href="/js/vegas/vegas.min.css">
-
+    -->
  
 </head>
 <body>
@@ -28,20 +31,21 @@
       </li>
             
       <li>
-        <a href="#">О нас</a> 
+        <a href="#idnews">Новости</a> 
       </li>
 
       <li>
-        <a href="#">Новости</a> 
-      </li>
-
-      <li>
-        <a href="#">Прайс-лист</a> 
+        <a href="#idzakaz">Заказать</a> 
       </li>
 
       <li class="reg">
-        <a href="#">Логин/Регистрация</a> 
+        <a href="#idmaps">Местоположение</a> 
       </li>
+
+       <li>
+        <a href="#id20">О нас</a> 
+       </li>
+
      </ul>
 
     
@@ -53,7 +57,7 @@
   
       <div class="menu__links">
         <a class="menu__links-item" href="/">Главная</a>
-        <a class="menu__links-item" href="/">О нас</a>
+        <a class="menu__links-item" href="#">О нас</a>
         <a class="menu__links-item" href="/">Новости</a>
         <a class="menu__links-item" href="/">Прайс-лист</a>
       </div>
@@ -65,7 +69,7 @@
 	<p> Больше миллиона оттенков вкуса по доступной цене <br> Насладись вкусом по доступным ценам </p>
 </div>
 
-<div class="main_block">
+<div class="main_block" id="idnews">
 
  	<div class="blocks">
  		<img src="images/pic_news.jpg" class="roundpic">
@@ -89,7 +93,7 @@
     
 
  	<h1> Что заказать?</h1>
- 	<div class="zakaz_product">
+ 	<div class="zakaz_product" id="idzakaz">
  		<div class="main__block__head">
  		    <h1>Капучино</h1>
  		</div>
@@ -128,44 +132,28 @@
  		</div>
     	
     </div>
-
+ 
  	<div class="form">
- 	<form class="contact_form">
-     <ul>
-     	
-       <h2>Contact Us</h2>
-         <li>
-       <label for="name">Name:</label>
-       <input type="text" name="name" placeholder="Иван"/>
-         </li>
-        <li>
-          <label for="thirname">Thirname:</label>
-          <input type="text" name="thirname" placeholder="Иванов"/>
-        </li>
-        <li>
-          <label for="e-mail">E-mail:</label>
-          <input type="text" name="e-mail" placeholder="иванов@mail.ru"/>
-        </li>
-          <li>
-        <label for="message">Message:</label>
-        <textarea name="message"></textarea>
-         </li>
-         <li>
-         <button class="buttonzakaz"> Заказать </button>
-          </li>
-      </ul>
- 	</form>
+ 	 <form>
+   <input name="name" placeholder="Укажите ваше имя!" class="textbox" required />
+   <input name="emailaddress" placeholder="Укажите ваш Email!" class="textbox" type="email" required />
+   <textarea rows="4" cols="50" name="subject" placeholder="Введите ваше сообщение:" class="message" required></textarea>
+   <input name="submit" class="buttonzak" type="submit" value="Отправить" />
+    </form>
    	</div>
 
-   	<div class="mapblock">
+<div class="zero-block">
+  	
+  </div>
+   	<div class="mapblock" id="idmaps">
  		    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4b4846de0cabde013992db58197ece31ea2d3c71cda53aaaefc96e66502b1cb6&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
- 	     </div>
+ 	</div>
 
-    <div class="slider">
+<!--     
   <input type="radio" name="switch" id="btn1" checked>
   <input type="radio" name="switch" id="btn2">
   <input type="radio" name="switch" id="btn3">
-  
+ 
   <div class="switch">
     <label for="btn1"></label>
     <label for="btn2"></label>
@@ -179,22 +167,30 @@
       <img src="images/piccoffee3.jpeg"/>
     </div>
   </div>
-  
-    </div> 
+-->  
+  <div class="zero-block">
+  	
+  </div>
 
     <div class="sliderjs">
-    	<div class="slider">
-           <div><img src="images/piccoffee1.jpg" alt=""></div>
-           <div><img src="images/piccoffee2.jpg" alt=""></div>
-           <div><img src="images/piccoffee3.jpeg" alt=""></div>
+    	<div class="w-slider">
+           <div><img src="images/piccoffee1.jpg"  width="100%" height="100%" alt=""></div>
+           <div><img src="images/piccoffee2.jpg"width="100%" height="100%" alt=""></div>
+           <div><img src="images/piccoffee3.jpeg" width="100%" height="100%" alt=""></div>
         </div>
     </div> 
-      	
+<div class="zero-block">
+  	
+  </div>      	
+<div class="new_slider">
+	<div class="example" style="height:400px"></div>
 </div>
+<div class="zero-block">
+  	
+  </div>
 
 
-
-<div class="footer">
+<div class="footer" id="id20">
    <div class="high_footer">
   	 <div class="logofooter">
   	 	<img src="images/logo.webp" class="logoimg">
@@ -216,6 +212,10 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	 <script src="js/jquery.bxslider.js"></script>
+
+   <script src="js/vegas.min.js"></script>
 	<script src="js/script.js"></script>
 
 </body>
