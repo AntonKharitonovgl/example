@@ -93,6 +93,7 @@
     
 
  	<h1> Что заказать?</h1>
+
  	<div class="zakaz_product" id="idzakaz">
  		<div class="main__block__head">
  		    <h1>Капучино</h1>
@@ -106,10 +107,27 @@
        </div>
 
       <div class="button">
-      	<a href="#" class="buttonzakaz">Заказать</a>
-      </div>
- 		    
-    </div>
+      		<button id="myBtn" class="buttonzakaz">Заказать</button>
+         <div id="myModal" class="modal">
+    	    <div class="modal-content">
+    	    	<div class="form">
+ 	 <form>
+   <input name="name" placeholder="Укажите ваше имя!" class="textbox" required />
+   <input name="emailaddress" placeholder="Укажите ваш Email!" class="textbox" type="email" required />
+   <textarea rows="4" cols="50" name="subject" placeholder="Введите ваше сообщение:" class="message" required></textarea>
+   <input name="submit" class="buttonzak" type="submit" value="Отправить" />
+    </form>
+   	</div>
+    		<span class="close">
+    			X
+    		</span>
+    	    </div>
+         </div>
+       </div>
+ 	</div>
+
+    
+
 
  	<div class="mainphotoblock">
         <div class="main__block__head">
