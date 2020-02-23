@@ -28,19 +28,17 @@ $(".example").vegas({
 });
 
 
+var modal = document.querySelector("#modal"),
+        modalOverlay = document.querySelector("#modal-overlay"),
+        closeButton = document.querySelector("#close-button"),
+        openButton = document.querySelector("#open-button");
 
-var modal = document.getElementById('myModal');
-var btn = document.getElementById("myBtn");
-var span = document.getElementsByClassName("close")[0];
+  closeButton.addEventListener("click", function() {
+    modal.classList.toggle("closed");
+    modalOverlay.classList.toggle("closed");
+  });
 
-btn.onclick = function(){
-  modal.style.display = "block";
-}
-span.onclick = function(){
-  modal.style.display = "none";
-}
-window.onclick = function(){
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+  openButton.addEventListener("click", function() {
+    modal.classList.toggle("closed");
+    modalOverlay.classList.toggle("closed");
+  });
