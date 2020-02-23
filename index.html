@@ -107,26 +107,26 @@
        </div>
 
       <div class="button">
-      		<button id="myBtn" class="buttonzakaz">Заказать</button>
+      		<button id="open-button" class="buttonzakaz">Заказать</button>
       </div>
-      <div id="myModal" class="modal">
-    	    <div class="modal-content">
-    	    	<div class="form">
- 	       <form>
-           <input name="name" placeholder="Укажите ваше имя!" class="textbox" required />
-           <input name="emailaddress" placeholder="Укажите ваш Email!" class="textbox" type="email" required />
-           <textarea rows="4" cols="50" name="subject" placeholder="Введите ваше сообщение:" class="message" required></textarea>
-           <input name="submit" class="buttonzak" type="submit" value="Отправить" />
-           </form>
-   	  </div>
-    		<span class="close">
-    			X
-    		</span>
-    	    </div>
-         </div>
+      
  	</div>
 
     
+    <div class="modal" id="modal" aria-hidden="true" aria-labelledby="modalTitle" aria-describedby="modalDescription" role="dialog">
+  <button class="close-button" id="close-button" title="Закрыть модальное окно">Закрыть</button>
+  <div class="modal-guts" role="document">
+      <div class="form">
+   <form>
+   <input name="name" placeholder="Укажите ваше имя!" class="textbox" required />
+   <input name="emailaddress" placeholder="Укажите ваш Email!" class="textbox" type="email" required />
+   <textarea rows="4" cols="50" name="subject" placeholder="Введите ваше сообщение:" class="message" required></textarea>
+   <input name="submit" class="buttonzak" type="submit" value="Отправить" />
+    </form>
+    </div>
+    
+  </div>
+</div>
 
 
  	<div class="mainphotoblock">
@@ -227,6 +227,7 @@
   	<p>Внимание!!! Этот сайт не имеет коммерческой цели и создан только ради обучения.</p>
   </div>
 </div >
+
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
